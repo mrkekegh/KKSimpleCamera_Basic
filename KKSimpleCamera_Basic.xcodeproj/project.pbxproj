@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A055B24E19C7C66A007C9D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A055B24D19C7C66A007C9D6A /* Foundation.framework */; };
+		A055B25019C7C66A007C9D6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A055B24F19C7C66A007C9D6A /* CoreGraphics.framework */; };
+		A055B25219C7C66A007C9D6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A055B25119C7C66A007C9D6A /* UIKit.framework */; };
+		A055B25819C7C66A007C9D6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A055B25619C7C66A007C9D6A /* InfoPlist.strings */; };
+		A055B25A19C7C66A007C9D6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A055B25919C7C66A007C9D6A /* main.m */; };
+		A055B25E19C7C66A007C9D6A /* KKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A055B25D19C7C66A007C9D6A /* KKAppDelegate.m */; };
+		A055B26019C7C66A007C9D6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A055B25F19C7C66A007C9D6A /* Images.xcassets */; };
+		A055B26719C7C66A007C9D6A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A055B26619C7C66A007C9D6A /* XCTest.framework */; };
+		A055B26819C7C66A007C9D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A055B24D19C7C66A007C9D6A /* Foundation.framework */; };
+		A055B26919C7C66A007C9D6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A055B25119C7C66A007C9D6A /* UIKit.framework */; };
+		A055B27119C7C66A007C9D6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A055B26F19C7C66A007C9D6A /* InfoPlist.strings */; };
+		A055B27319C7C66A007C9D6A /* KKSimpleCamera_BasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A055B27219C7C66A007C9D6A /* KKSimpleCamera_BasicTests.m */; };
+		A055B27F19C7C6EE007C9D6A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A055B27D19C7C6EE007C9D6A /* RootViewController.m */; };
+		A055B28019C7C6EE007C9D6A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A055B27E19C7C6EE007C9D6A /* RootViewController.xib */; };
+		A055B28419C7CDC7007C9D6A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A055B28319C7CDC7007C9D6A /* AssetsLibrary.framework */; };
+		A055B28619C7CDE6007C9D6A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A055B28519C7CDE6007C9D6A /* AVFoundation.framework */; };
+		A055B28C19C7CE4B007C9D6A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A055B28B19C7CE4B007C9D6A /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A055B26A19C7C66A007C9D6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A055B24219C7C66A007C9D6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A055B24919C7C66A007C9D6A;
+			remoteInfo = KKSimpleCamera_Basic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A055B24A19C7C66A007C9D6A /* KKSimpleCamera_Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKSimpleCamera_Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A055B24D19C7C66A007C9D6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A055B24F19C7C66A007C9D6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A055B25119C7C66A007C9D6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A055B25519C7C66A007C9D6A /* KKSimpleCamera_Basic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKSimpleCamera_Basic-Info.plist"; sourceTree = "<group>"; };
+		A055B25719C7C66A007C9D6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A055B25919C7C66A007C9D6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A055B25B19C7C66A007C9D6A /* KKSimpleCamera_Basic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKSimpleCamera_Basic-Prefix.pch"; sourceTree = "<group>"; };
+		A055B25C19C7C66A007C9D6A /* KKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKAppDelegate.h; sourceTree = "<group>"; };
+		A055B25D19C7C66A007C9D6A /* KKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKAppDelegate.m; sourceTree = "<group>"; };
+		A055B25F19C7C66A007C9D6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A055B26519C7C66A007C9D6A /* KKSimpleCamera_BasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKSimpleCamera_BasicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A055B26619C7C66A007C9D6A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A055B26E19C7C66A007C9D6A /* KKSimpleCamera_BasicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKSimpleCamera_BasicTests-Info.plist"; sourceTree = "<group>"; };
+		A055B27019C7C66A007C9D6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A055B27219C7C66A007C9D6A /* KKSimpleCamera_BasicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKSimpleCamera_BasicTests.m; sourceTree = "<group>"; };
+		A055B27C19C7C6EE007C9D6A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A055B27D19C7C6EE007C9D6A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A055B27E19C7C6EE007C9D6A /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A055B28319C7CDC7007C9D6A /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		A055B28519C7CDE6007C9D6A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A055B28B19C7CE4B007C9D6A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A055B24719C7C66A007C9D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A055B28C19C7CE4B007C9D6A /* MobileCoreServices.framework in Frameworks */,
+				A055B28619C7CDE6007C9D6A /* AVFoundation.framework in Frameworks */,
+				A055B28419C7CDC7007C9D6A /* AssetsLibrary.framework in Frameworks */,
+				A055B25019C7C66A007C9D6A /* CoreGraphics.framework in Frameworks */,
+				A055B25219C7C66A007C9D6A /* UIKit.framework in Frameworks */,
+				A055B24E19C7C66A007C9D6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A055B26219C7C66A007C9D6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A055B26719C7C66A007C9D6A /* XCTest.framework in Frameworks */,
+				A055B26919C7C66A007C9D6A /* UIKit.framework in Frameworks */,
+				A055B26819C7C66A007C9D6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A055B24119C7C66A007C9D6A = {
+			isa = PBXGroup;
+			children = (
+				A055B25319C7C66A007C9D6A /* KKSimpleCamera_Basic */,
+				A055B26C19C7C66A007C9D6A /* KKSimpleCamera_BasicTests */,
+				A055B24C19C7C66A007C9D6A /* Frameworks */,
+				A055B24B19C7C66A007C9D6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A055B24B19C7C66A007C9D6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A055B24A19C7C66A007C9D6A /* KKSimpleCamera_Basic.app */,
+				A055B26519C7C66A007C9D6A /* KKSimpleCamera_BasicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A055B24C19C7C66A007C9D6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A055B28B19C7CE4B007C9D6A /* MobileCoreServices.framework */,
+				A055B28519C7CDE6007C9D6A /* AVFoundation.framework */,
+				A055B28319C7CDC7007C9D6A /* AssetsLibrary.framework */,
+				A055B24D19C7C66A007C9D6A /* Foundation.framework */,
+				A055B24F19C7C66A007C9D6A /* CoreGraphics.framework */,
+				A055B25119C7C66A007C9D6A /* UIKit.framework */,
+				A055B26619C7C66A007C9D6A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A055B25319C7C66A007C9D6A /* KKSimpleCamera_Basic */ = {
+			isa = PBXGroup;
+			children = (
+				A055B25C19C7C66A007C9D6A /* KKAppDelegate.h */,
+				A055B25D19C7C66A007C9D6A /* KKAppDelegate.m */,
+				A055B25F19C7C66A007C9D6A /* Images.xcassets */,
+				A055B25419C7C66A007C9D6A /* Supporting Files */,
+				A055B27C19C7C6EE007C9D6A /* RootViewController.h */,
+				A055B27D19C7C6EE007C9D6A /* RootViewController.m */,
+				A055B27E19C7C6EE007C9D6A /* RootViewController.xib */,
+			);
+			path = KKSimpleCamera_Basic;
+			sourceTree = "<group>";
+		};
+		A055B25419C7C66A007C9D6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A055B25519C7C66A007C9D6A /* KKSimpleCamera_Basic-Info.plist */,
+				A055B25619C7C66A007C9D6A /* InfoPlist.strings */,
+				A055B25919C7C66A007C9D6A /* main.m */,
+				A055B25B19C7C66A007C9D6A /* KKSimpleCamera_Basic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A055B26C19C7C66A007C9D6A /* KKSimpleCamera_BasicTests */ = {
+			isa = PBXGroup;
+			children = (
+				A055B27219C7C66A007C9D6A /* KKSimpleCamera_BasicTests.m */,
+				A055B26D19C7C66A007C9D6A /* Supporting Files */,
+			);
+			path = KKSimpleCamera_BasicTests;
+			sourceTree = "<group>";
+		};
+		A055B26D19C7C66A007C9D6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A055B26E19C7C66A007C9D6A /* KKSimpleCamera_BasicTests-Info.plist */,
+				A055B26F19C7C66A007C9D6A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A055B24919C7C66A007C9D6A /* KKSimpleCamera_Basic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A055B27619C7C66A007C9D6A /* Build configuration list for PBXNativeTarget "KKSimpleCamera_Basic" */;
+			buildPhases = (
+				A055B24619C7C66A007C9D6A /* Sources */,
+				A055B24719C7C66A007C9D6A /* Frameworks */,
+				A055B24819C7C66A007C9D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKSimpleCamera_Basic;
+			productName = KKSimpleCamera_Basic;
+			productReference = A055B24A19C7C66A007C9D6A /* KKSimpleCamera_Basic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A055B26419C7C66A007C9D6A /* KKSimpleCamera_BasicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A055B27919C7C66A007C9D6A /* Build configuration list for PBXNativeTarget "KKSimpleCamera_BasicTests" */;
+			buildPhases = (
+				A055B26119C7C66A007C9D6A /* Sources */,
+				A055B26219C7C66A007C9D6A /* Frameworks */,
+				A055B26319C7C66A007C9D6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A055B26B19C7C66A007C9D6A /* PBXTargetDependency */,
+			);
+			name = KKSimpleCamera_BasicTests;
+			productName = KKSimpleCamera_BasicTests;
+			productReference = A055B26519C7C66A007C9D6A /* KKSimpleCamera_BasicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A055B24219C7C66A007C9D6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = keke;
+				TargetAttributes = {
+					A055B24919C7C66A007C9D6A = {
+						DevelopmentTeam = T797JR5W54;
+					};
+					A055B26419C7C66A007C9D6A = {
+						TestTargetID = A055B24919C7C66A007C9D6A;
+					};
+				};
+			};
+			buildConfigurationList = A055B24519C7C66A007C9D6A /* Build configuration list for PBXProject "KKSimpleCamera_Basic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A055B24119C7C66A007C9D6A;
+			productRefGroup = A055B24B19C7C66A007C9D6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A055B24919C7C66A007C9D6A /* KKSimpleCamera_Basic */,
+				A055B26419C7C66A007C9D6A /* KKSimpleCamera_BasicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A055B24819C7C66A007C9D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A055B25819C7C66A007C9D6A /* InfoPlist.strings in Resources */,
+				A055B26019C7C66A007C9D6A /* Images.xcassets in Resources */,
+				A055B28019C7C6EE007C9D6A /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A055B26319C7C66A007C9D6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A055B27119C7C66A007C9D6A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A055B24619C7C66A007C9D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A055B25E19C7C66A007C9D6A /* KKAppDelegate.m in Sources */,
+				A055B25A19C7C66A007C9D6A /* main.m in Sources */,
+				A055B27F19C7C6EE007C9D6A /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A055B26119C7C66A007C9D6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A055B27319C7C66A007C9D6A /* KKSimpleCamera_BasicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A055B26B19C7C66A007C9D6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A055B24919C7C66A007C9D6A /* KKSimpleCamera_Basic */;
+			targetProxy = A055B26A19C7C66A007C9D6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A055B25619C7C66A007C9D6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A055B25719C7C66A007C9D6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A055B26F19C7C66A007C9D6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A055B27019C7C66A007C9D6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A055B27419C7C66A007C9D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A055B27519C7C66A007C9D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A055B27719C7C66A007C9D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKSimpleCamera_Basic/KKSimpleCamera_Basic-Prefix.pch";
+				INFOPLIST_FILE = "KKSimpleCamera_Basic/KKSimpleCamera_Basic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A055B27819C7C66A007C9D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKSimpleCamera_Basic/KKSimpleCamera_Basic-Prefix.pch";
+				INFOPLIST_FILE = "KKSimpleCamera_Basic/KKSimpleCamera_Basic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A055B27A19C7C66A007C9D6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KKSimpleCamera_Basic.app/KKSimpleCamera_Basic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKSimpleCamera_Basic/KKSimpleCamera_Basic-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KKSimpleCamera_BasicTests/KKSimpleCamera_BasicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A055B27B19C7C66A007C9D6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KKSimpleCamera_Basic.app/KKSimpleCamera_Basic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKSimpleCamera_Basic/KKSimpleCamera_Basic-Prefix.pch";
+				INFOPLIST_FILE = "KKSimpleCamera_BasicTests/KKSimpleCamera_BasicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A055B24519C7C66A007C9D6A /* Build configuration list for PBXProject "KKSimpleCamera_Basic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A055B27419C7C66A007C9D6A /* Debug */,
+				A055B27519C7C66A007C9D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A055B27619C7C66A007C9D6A /* Build configuration list for PBXNativeTarget "KKSimpleCamera_Basic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A055B27719C7C66A007C9D6A /* Debug */,
+				A055B27819C7C66A007C9D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A055B27919C7C66A007C9D6A /* Build configuration list for PBXNativeTarget "KKSimpleCamera_BasicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A055B27A19C7C66A007C9D6A /* Debug */,
+				A055B27B19C7C66A007C9D6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A055B24219C7C66A007C9D6A /* Project object */;
+}
